@@ -2,11 +2,17 @@ mysql的mac基本使用
 
 mysql路径:
 PATH="$PATH":/usr/local/mysql/bin
+
+
 1、启动、重启、停止、查看 MySQL状态
 sudo /usr/local/mysql/support-files/mysql.server start
+
 sudo /usr/local/mysql/support-files/mysql.server stop
+
 sudo /usr/local/mysql/support-files/mysql.server restart
+
 sudo /usr/local/mysql/support-files/mysql.server status
+
 2、重置密码
 长时间不用，忘记密码是经常的事。。。此时需要重置密码。
 
