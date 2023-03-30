@@ -1,0 +1,15 @@
+1.查看进程号
+ps -ef | grep 进程名
+
+2、查看端口被哪个进程监听
+sudo lsof -i:8080
+此时必须要输入sudo，不然无法正常显示
+
+3.查看进程监听的端口
+sudo lsof -nP | grep LISTEN | grep 3306
+
+4.查看进程
+sudo lsof -i tcp:端口号
+
+5.关闭进程
+sudo kill -9 端口号
