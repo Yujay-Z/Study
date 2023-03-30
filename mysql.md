@@ -3,6 +3,19 @@
 mysql路径:
 PATH="$PATH":/usr/local/mysql/bin
 
+##彻底删除mysq
+1、关闭mysql
+
+查看mysql是否启动：ps -ef |grep mysql 查看进程号
+
+2、输入：kill -9 进程号 
+然后回车，关闭mysql。
+
+3、卸载：
+
+在Mac终端使用下面的命令删除所有mysql文件即可
+
+
 
 ###1、启动、重启、停止、查看 MySQL状态
 sudo /usr/local/mysql/support-files/mysql.server start
