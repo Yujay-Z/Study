@@ -1,9 +1,9 @@
-#mysql的mac基本使用
-
+# mysql的mac基本使用
+ 
 mysql路径:
 PATH="$PATH":/usr/local/mysql/bin
 
-##彻底删除mysq
+## 彻底删除mysq
 1、关闭mysql
 
 查看mysql是否启动：ps -ef |grep mysql 查看进程号
@@ -17,7 +17,7 @@ PATH="$PATH":/usr/local/mysql/bin
 
 
 
-###1、启动、重启、停止、查看 MySQL状态
+### 1、启动、重启、停止、查看 MySQL状态
 sudo /usr/local/mysql/support-files/mysql.server start
 
 sudo /usr/local/mysql/support-files/mysql.server stop
@@ -26,20 +26,20 @@ sudo /usr/local/mysql/support-files/mysql.server restart
 
 sudo /usr/local/mysql/support-files/mysql.server status
 
-###2、重置密码
+### 2、重置密码
 长时间不用，忘记密码是经常的事。。。此时需要重置密码。
 
 mysql -u root -p
 
-##3.进入数据库
+### 3.进入数据库
 
 /usr/local/MySQL/bin/mysql -u root -p
 
-###4.查询数据库
+### 4.查询数据库
 
 show databases;
 
-#二、连接远程数据库并进入命令行：
+## 二、连接远程数据库并进入命令行：
 
 假设远程主机的IP为：ip地址，用户名为root,密码为123456
 
@@ -57,9 +57,9 @@ Enter password:
 
 若已设置密码，则输入密码后，回车，即可进入mysql命令行。
 
-##三、退出命令：exit，再回车即可退出mysql命令行。
+## 三、退出命令：exit，再回车即可退出mysql命令行。
 
-##四：
+## 四：
 
 1、创建一个名字为NickYang数据库 create database NickYang character set utf8;
 
