@@ -7,7 +7,7 @@
 1. 第一次初始化
    - git init  
    - git remote add origin git@github.com:帐号名/仓库名.git
-   - git config --global user.name "" 
+   - git config --global user.name "XXX" 
    - git config --global user.email "your_email@example.com"
    - 
    - git pull origin master        <!-- %%‘master’是分支名 pull是拉取更新%%-->
