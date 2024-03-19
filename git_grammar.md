@@ -11,9 +11,9 @@
    - git config --global user.email "your_email@example.com"
    - 
    - git pull origin master        <!-- %%‘master’是分支名 pull是拉取更新%%-->
-   - git add .               %%add 后面加文件名%%
+   -  git add .               <!-- %%add 后面加文件名%%-->
    - git commit -m ‘first commit’
-   - git push origin master    %%   -f  //强推 %%
+   - git push origin master    %%   -f  //强推 %% 
    - 
    - git clone git@github.com:git帐号名/仓库名.git
 
