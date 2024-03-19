@@ -5,14 +5,13 @@
 #git的使用
 
 1. 第一次初始化
-   git init
-   git add .
-   git commit -m ‘first commit’
-   git remote add origin git@github.com:帐号名/仓库名.git
-   git pull origin master
-   git push origin master # -f  //强推
-
-   git clone git@github.com:git帐号名/仓库名.git
+   - git init  
+   - git add .
+   - - git remote add origin git@github.com:帐号名/仓库名.git
+   - git commit -m ‘first commit’
+   - git pull origin master
+   - git push origin master # -f  //强推
+   - git clone git@github.com:git帐号名/仓库名.git
 
 
 
