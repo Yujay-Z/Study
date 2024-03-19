@@ -1,12 +1,15 @@
 # mysql的mac基本使用
- 
+
+###### 数据库操作详细:[知乎](https://zhuanlan.zhihu.com/p/667732428)
+
 mysql路径:
 PATH="$PATH":/usr/local/mysql/bin
 
 ## 彻底删除mysq
 1、关闭mysql
 
-查看mysql是否启动：ps -ef |grep mysql 查看进程号
+查看mysql是否启动：ps -ef |grep mysql 查看进程号 全部信息
+pgrep mysql 仅查看进程号
 
 2、输入：kill -9 进程号 
 然后回车，关闭mysql。
@@ -14,8 +17,6 @@ PATH="$PATH":/usr/local/mysql/bin
 3、卸载：
 
 在Mac终端使用下面的命令删除所有mysql文件即可
-
-
 
 ### 1、启动、重启、停止、查看 MySQL状态
 sudo /usr/local/mysql/support-files/mysql.server start
@@ -98,3 +99,4 @@ update yang set name = 'yang' where id = 1;
 13、查找数据：select * from 表名 [where 条件];
 
 select * from yang [where id = 1];
+
