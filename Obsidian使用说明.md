@@ -1,0 +1,1 @@
+[obsidian](https://blog.csdn.net/weixin_43720409/article/details/129903132)
