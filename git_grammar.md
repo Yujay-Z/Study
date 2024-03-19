@@ -6,8 +6,8 @@
 
 1. 第一次初始化
    - git init  
-   - git add .
-   - - git remote add origin git@github.com:帐号名/仓库名.git
+   - git add .    %%add 后面加文件名%%
+   - git remote add origin git@github.com:帐号名/仓库名.git
    - git commit -m ‘first commit’
    - git pull origin master
    - git push origin master # -f  //强推
